@@ -5,6 +5,12 @@ VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Accipiter.WebUI", "Accipiter.WebUI\Accipiter.WebUI.csproj", "{822595A5-F3FE-40CC-8051-E302A2B0F254}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Accipiter.Infrastructure", "Accipiter.Infrastructure\Accipiter.Infrastructure.csproj", "{66B21108-C221-4574-BB56-6519D44C7072}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Accipiter.Application", "Accipiter.Application\Accipiter.Application.csproj", "{BCFFEC57-DAE7-4F77-8284-909174524593}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Accipiter.Domain", "Accipiter.Domain\Accipiter.Domain.csproj", "{97D698FC-35EA-4719-AE05-CEF0AFF904F7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,5 +24,17 @@ Global
 		{822595A5-F3FE-40CC-8051-E302A2B0F254}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{822595A5-F3FE-40CC-8051-E302A2B0F254}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{822595A5-F3FE-40CC-8051-E302A2B0F254}.Release|Any CPU.Build.0 = Release|Any CPU
+		{66B21108-C221-4574-BB56-6519D44C7072}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{66B21108-C221-4574-BB56-6519D44C7072}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{66B21108-C221-4574-BB56-6519D44C7072}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{66B21108-C221-4574-BB56-6519D44C7072}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BCFFEC57-DAE7-4F77-8284-909174524593}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BCFFEC57-DAE7-4F77-8284-909174524593}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BCFFEC57-DAE7-4F77-8284-909174524593}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BCFFEC57-DAE7-4F77-8284-909174524593}.Release|Any CPU.Build.0 = Release|Any CPU
+		{97D698FC-35EA-4719-AE05-CEF0AFF904F7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{97D698FC-35EA-4719-AE05-CEF0AFF904F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{97D698FC-35EA-4719-AE05-CEF0AFF904F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{97D698FC-35EA-4719-AE05-CEF0AFF904F7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
